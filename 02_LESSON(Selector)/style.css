@@ -1,0 +1,24 @@
+/* it use in entire body */
+body {
+    font-size:20Px
+}
+
+
+
+
+/* it use in entire paragraph */
+p {
+    color:blueviolet;
+}
+
+
+
+/* it is use in class. you can use it multiple time */
+.ayush{
+    color:red;
+}
+
+/* Id selector */
+#ayush{
+    font-style:italic;
+}
