@@ -1,0 +1,20 @@
+/* also we import these fonts from google fonts website and use it locally */
+ /* to use locally (@<then file source>) */
+@font-face {
+    font-family: ElmsSans ;
+    src: url(ElmsSans-Italic-VariableFont_wght.ttf);
+}
+
+
+h1{
+    font-family: verdana,arial;
+}
+
+/*    if any font family name had a space in between then we use ""  like "lucida console"*/
+
+p{font-family: ElmsSans ; 
+    font-size:1em;
+    font-weight:bold;
+    font-style:italic;
+
+}
