@@ -1,0 +1,26 @@
+
+/* there are four type of color values we take  */
+/* 1.color name(red)
+   2.rgb(102,222,333)
+   3.hsl(334,345%,655%)
+   4.hexadecimal values(#546464) */
+
+body{
+    background-color:rgb(41, 41, 41)
+}
+
+#p1{
+    color:tomato;
+}
+
+#p2{
+   color: rgb(102, 222, 255)
+}
+
+#p3{
+    color:#59ff5f;
+}
+
+#p4{
+    color:hsl(313, 91%, 34%)
+}
