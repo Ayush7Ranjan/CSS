@@ -1,0 +1,19 @@
+h1{
+    /* border-style:solid;
+    border-width: 3px;
+    border-color: blueviolet; */
+    /* lets use border for all three */
+    border: 3px solid violet;
+    border-radius: 100px;
+}
+
+p{
+   border-bottom: 3px solid red;
+   border-top: 3px dotted red;
+   border-left: 3px dashed red;
+   border-right: 3px outset red;
+
+   border-radius: 10px;
+
+}
+
