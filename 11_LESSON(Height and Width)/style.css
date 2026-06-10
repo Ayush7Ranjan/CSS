@@ -1,0 +1,18 @@
+.container{
+    background-color: red;
+    height: 100vh;
+}
+
+
+.box{
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: right;
+    text-align: left;
+    max-height: 25%;
+}
+
