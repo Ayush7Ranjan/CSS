@@ -1,0 +1,14 @@
+div{
+    background-color: red;
+    width: 100px;
+    height:100px;
+    display:block;
+    
+}
+
+span{
+    background-color: black;
+    width: 100px;
+    height:100px;
+    display: inline;
+}
