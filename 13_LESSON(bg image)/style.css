@@ -1,0 +1,11 @@
+body{
+    background-image: url(BMW\ \(@BMW\)\ on\ X.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p{
+    color: aliceblue;
+}

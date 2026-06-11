@@ -1,0 +1,46 @@
+/* button:hover{
+    font-size: 1.1em;
+    background-color: red;
+}
+
+button:active{
+    font-size: 2.1em;
+    background-color: aquamarine;
+} */
+
+/* a:link{
+    color:hsl(203, 100%, 50%);
+}
+a:hover{
+    color: hsl(329, 100%, 50%);
+    font-size:1.1em;
+}
+a:active{
+    color:hsl(244, 100%, 50%);
+    font-size: 2.1em;
+}
+a:visited{
+    color: hsl(61, 76%, 48%);
+} */
+
+
+/* li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: gray;
+} */
+
+/* li:nth-child(3n+1){
+    background-color: blue;
+} */
+
+#greeting p{
+    background-color: aquamarine;
+    padding: 10px;
+    display:none;
+}
+
+#greeting:hover p{
+    display:block;
+}
