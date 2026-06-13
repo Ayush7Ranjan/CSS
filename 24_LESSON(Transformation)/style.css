@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+
+}
+
+.box{
+     width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    font-size: 13em;
+    text-align: center; 
+    /* transform: translateX(30px); */
+    /* transform: translateY(30px); */
+    /* transform: translate(50px,50px); */
+    /* transform: rotateZ(180deg); */
+    /* transform: scaleX(1.1);
+    transform: skewY(20deg); */
+
+    transform: translateX(100%) rotateZ(180deg) scale(1.2);
+}
+
+#box1{
+   
+    background-color: aquamarine;
+   
+}
+
+
+#box2{
+    background-color: bisque;
+}
+
+#box3{
+    background-color: rgba(0, 0, 255, 0.148);
+}
