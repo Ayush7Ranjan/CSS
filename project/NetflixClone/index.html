@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const heading = document.getElementById("title");
+
+        if (language === "Hindi") {
+            heading.innerText = "नमस्ते";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <img src="image/netflix logo.png" alt="logo">
+
+            <div class="nav-right">
+                <select id="language">
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+
+                <button class="button">Sign In</button>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Ultimate movies, shows, and more</h1>
+            <h3>start at ₹149 , cancle any time</h3>
+            <p>Ready to watch? Enter your Email to create or restart your membership.</p>
+        </div>
+
+        <div class="email">
+            <input type="email" placeholder="Email address">
+
+            <button>Get started <span class="arrow"> ></span> </button>
+        </div>
+        <div class="curve"></div>
+    </div>
+
+
+
+
+</body>
+
+</html>

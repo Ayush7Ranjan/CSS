@@ -1,0 +1,58 @@
+/* for button */
+.button{
+            width:50px;
+            height:50px;
+            margin:3px;
+            font-size:20px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            background: rgb(206, 165, 88);
+            
+
+           
+          
+/* for heder */
+    
+}
+
+.text{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/* for body */
+.body{
+            background:black;
+            padding:10px;
+            border-radius:10px;
+            width:max-content;
+            display:block;
+            margin:auto;           
+}
+
+/* for calculation input */
+.input-text{
+            width:215px;
+            height:49px;
+            margin-bottom:10px;
+            font-size:25px;
+            text-align:right;
+            padding-right:10px;
+            display:block;
+            
+            border-radius: 10px;
+            background: rgb(180, 218, 122);
+            
+}
+
+/* for input and backspace */
+.display-box{
+
+    display:flex;
+    gap:5px;
+
+}
+
+

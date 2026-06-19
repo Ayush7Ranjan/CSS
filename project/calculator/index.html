@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+   
+</head>
+
+<body>
+    <div class="body">
+        <h1 class="text"> CALCULATOR </h1>
+        <div class="display-box">
+            <input class="input-text" id="display" type="text" placeholder="0">
+            <button style="background: red;" class="button" onclick="backspace()">⌫</button>
+        </div>
+
+        <div class="row">
+            <button onclick="show('!')" class="button">x!</button>
+            <button onclick="show('(')" class="button">(</button>
+            <button onclick="show(')')" class="button">)</button>
+            <button onclick="show('%')" class="button">%</button>
+            <button style="background: yellow;" onclick="clearDisplay()" class="button">AC</button>
+        </div>
+        <div class="row">
+            <button onclick="show('ln(')" class="button">ln</button>
+            <button style="background: white;" onclick="show('7')" class="button">7</button>
+            <button style="background: white;" onclick="show('8')" class="button">8</button>
+            <button style="background: white;" onclick="show('9')" class="button">9</button>
+            <button onclick="show('*')" class="button">x</button>
+        </div>
+        <div class="row">
+            <button onclick="show('log(')" class="button">log</button>
+            <button style="background: white;" onclick="show('4')" class="button">4</button>
+            <button style="background: white;" onclick="show('5')" class="button">5</button>
+            <button style="background: white;" onclick="show('6')" class="button">6</button>
+            <button onclick="show('/')" class="button">/</button>
+        </div>
+        <div class="row">
+            <button onclick="show('√(')" class="button">√</button>
+            <button style="background: white;" onclick="show('1')" class="button">1</button>
+            <button style="background: white;" onclick="show('2')" class="button">2</button>
+            <button style="background: white;" onclick="show('3')" class="button">3</button>
+            <button onclick="show('-')" class="button">-</button>
+        </div>
+        <div class="row">
+            <button onclick="show('^')" class="button">x<sup>y</sup> </button>
+            <button style="background: white;" onclick="show('0')" class="button">0</button>
+            <button style="background: white;" onclick="show('.')" class="button">.</button>
+            <button style="background: skyblue;" onclick="calculate()" class="button">=</button>
+            <button onclick="show('+')" class="button">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
